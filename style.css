@@ -1,0 +1,250 @@
+*{
+    box-sizing: border-box;
+    width: 100%;
+}
+/* EXERCÍCIO 1 */
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    /* BREAKPOINT PARA CELULARES: */
+    [class*="col-"] {
+      width: 100%;
+    }
+   }
+.coluna1 {
+    width: 8.33%;
+    background-color: greenyellow;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+.coluna2 {
+    width: 16.66%;
+    background-color: greenyellow;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+.coluna3 {
+    width: 25%;
+    background-color: greenyellow;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+.coluna4 {
+    width: 33.33%;
+    background-color: greenyellow;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+.coluna5 {
+    width: 41.66%;
+    background-color: greenyellow;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+.coluna6 {
+    width: 50%;
+    background-color: greenyellow;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+.coluna7 {
+    width: 58.33%;
+    background-color: greenyellow;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+.coluna8 {
+    width: 66.66%;
+    background-color: greenyellow;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+.coluna9 {
+    width: 75%;
+    background-color: greenyellow;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+.coluna10 {
+    width: 83.33%;
+    background-color: greenyellow;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+.coluna11 {
+    width: 91.66%;
+    background-color: greenyellow;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+.coluna12 {
+    width: 100%;
+    background-color: greenyellow;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+
+/* EXERCÍCIO 2 */
+
+.inicio {
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    background-color: rgba(124, 16, 108, 0.55);
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+.meios{
+    display: flex;
+}
+.col-1{
+    width: 25%;
+    height: 100%;
+    padding: 2%;
+    background-color: #2fa5ff93;
+    border: 1px solid gray;
+    margin-top: 5px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+
+.col-2{
+    width: 25%;
+    height: 100%;
+    padding: 8.5%;
+    background-color: #2fa5ff93;
+    border: 1px solid gray;
+    margin-top: -17.5%;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+.fim{
+    width: 100%;
+    height: 100%;
+    padding: 3%;
+    background-color: #2fa5ff93;
+    border: 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+/* EXERCÍCIO 3 */
+
+.container{  
+    width: 100%;  
+    height: auto;
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+    padding: 10px;  
+  }
+  
+  .duasColunas{
+      width: 16.66%;   
+      height: auto;     
+      background-color: greenyellow; 
+      border: 1px solid gray;   
+      display: inline;     
+      padding: 10px; 
+      margin-top: 5px;
+  }
+  
+  .tresColunas{    
+      width: 25%;
+      height: auto;     
+      background-color: greenyellow; 
+      border: 1px solid gray;   
+      display: inline;
+      padding: 10px; 
+      margin-top: 10px;
+  }
+
+  .quatroColunas{
+      width: 33.33%;    
+      height: auto;     
+      background-color: greenyellow; 
+      border: 1px solid gray;   
+      display: inline;
+      padding: 10px;
+      margin-top: 10px; 
+  }
+
+  .seisColunas{
+      width: 50%;
+      height: auto;     
+      background-color: greenyellow; 
+      border: 1px solid gray;   
+      display: inline; 
+      padding: 10px; 
+      margin-top: 10px;
+  }
+
+/* EXERCÍCIO 4 */
+.ex4 {
+    margin-top: 5px;
+}
+
+.menu{    
+    width: 25%;
+    float:left;
+    background-color: lightgray;
+    border: 1px solid red;
+    height: 100px;
+}
+
+.main{
+    width: 75%;
+    float:left;
+    background-color: lightgray;
+    border: 1px solid red;
+    height: 100px;
+}
+
+ img{
+    width: 100%;
+    height: auto;  
+ }
+ .coluna2 img {
+    width: 100%;
+    height: auto;
+    background-color: greenyellow;
+    border: 1px solid gray;
+    margin-top: 5px;
+}
+
+section{
+    font-size: 1em;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+@media (min-width: 1200px) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  .flex-container {
+      display: flex;
+      background-color: #000;      
+  }
+
+  .flex-container div{
+      background-color: #fff;
+      margin: 10px;
+      padding: 20px;
+      font-size: 30px;
+      font-family: Rubix,sans-serif;
+      font-size: 2rem;
+  }
